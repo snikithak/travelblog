@@ -1,0 +1,10 @@
+.flex1{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display:flex;
+    padding: 10px;
+    background-color: red;
+}
