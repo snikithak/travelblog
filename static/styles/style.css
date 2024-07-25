@@ -3,10 +3,15 @@
     justify-content: center;
 }
 
-h1{
+.flex2 h1{
     color:#339989;
     text-align:center;
     font-size: 100px;
+    height:50px;
+    /* background-color:rgb(233, 152, 198); */
+    padding:20px;
+    margin: 20px; 
+    text-align: center;
 }
 
 .navbar{

@@ -6,8 +6,8 @@ app = Flask(__name__)
 @app.route('/index', methods = ['GET', 'POST'])
 def index():
     searchData={
-        "nature":["nature.html"],
-        "entertainment": ["ent.html"]
+        "nature":"nature.html",
+        "entertainment": "ent.html"
     }
 
     if request.method== 'POST':
@@ -17,9 +17,7 @@ def index():
         
         # need to fix lines 19-22 to go to ent.html when entertainment is typed
         if query in searchData:
-            return render_template('nature.html', searchData= searchData[query])
-        else:
-          return render_template('ent.html', searchData= searchData[query])  
+            return render_template(searchData[query], searchData= searchData[query])
         
 
     return render_template('index.html', url=url_for('index'))
