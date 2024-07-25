@@ -22,7 +22,10 @@
 }
 
 h2{
-    padding: 10px;
+    padding: 40px;
+    background-color:#F6BD60;
+    color: white;
+    border-radius: 20px;
 }
 
 .navbar{
@@ -54,4 +57,11 @@ img{
     align-items: center;
 
     
+}
+/* fix and make it look pretty */
+label{
+    background-color: #F6BD60;
+    color:#339989;
+    width: 200px;
+    height: 200px;
 }
