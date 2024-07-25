@@ -3,21 +3,32 @@
     justify-content: center;
 }
 
-.flex2 h1{
-    color:#339989;
+.flex2{
+    display: flex;
+    justify-content: center;
+}
+ h1{
+    color: white;
     text-align:center;
-    font-size: 100px;
-    height:50px;
-    /* background-color:rgb(233, 152, 198); */
+    background-color:#F5CAC3;
+    border-radius: 20px;
+    border-color:yellow;
+    font-size: 50px;
+    width: 800px;
+    height: 70px;
     padding:20px;
     margin: 20px; 
     text-align: center;
 }
 
+h2{
+    padding: 10px;
+}
+
 .navbar{
     display: flex;
     background-color: rgb(249, 181, 181);
-    width: 40%;
+    width: 70%;
 }
 
 .navbar a {
