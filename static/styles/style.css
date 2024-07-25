@@ -1,20 +1,41 @@
  .flex1{
     display: flex;
     justify-content: center;
-} 
+}
+
+h1{
+    color:#339989;
+    text-align:center;
+    font-size: 100px;
+}
 
 .navbar{
     display: flex;
-    background-color: rgb(255, 38, 0);
+    background-color: rgb(249, 181, 181);
+    width: 40%;
 }
 
 .navbar a {
     color: white;
-    padding: 14px 20px;
+    padding: 20px 50px;
     text-decoration: none;
     text-align: center;
 }
 
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
 body{
-    background-color: red;
+    background-color: #F7EDE2;
+}
+
+img{
+    display:flex;
+    padding: 20px;
+    margin:20px; 
+    align-items: center;
+
+    
 }
