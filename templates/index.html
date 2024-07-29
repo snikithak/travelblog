@@ -18,18 +18,20 @@
         </div>
         
         <div class="flex2" >
-            <h1> Activities to do!  </h1>
+            <h1> Places to go in Santa Clara!  </h1>
         </div>
+            <div class="info"> 
 
-            <h2> welcome! let's find some activities for you to do in santa clara!
-             in the search bar below please type in nature if you would like to hike or visit a park,
-            or just do something in nature. 
-            if you would like to watch a movie or something(tbd), then please type in entertainment in the search bar below! </h2>
-       <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Map_of_California_highlighting_Santa_Clara_County.svg/1041px-Map_of_California_highlighting_Santa_Clara_County.svg.png?20240625230325" alt="santa clara" width="400px" height="400px">
-       
+                <h2> welcome! let's find some places for you to go to in santa clara!
+                    in the search bar below please type in nature if you would like to visit a park or trail,
+                   or just do something in nature. 
+                   if you would like to watch a movie or something(tbd), then please type in entertainment in the search bar below! </h2>
+              <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Map_of_California_highlighting_Santa_Clara_County.svg/1041px-Map_of_California_highlighting_Santa_Clara_County.svg.png?20240625230325" alt="santa clara" width="400px" height="400px">
+              
+            </div>
+
        <form action ="{{url}}" method="POST">
-        <label for="Search activity"> Search for an activity to do 
-            in either nature or entertainment </label><br>
+        <label for="Search activity"> Do you want to do an activity in nature or entertainment? </label><br>
         <input type="text" id = "query" name = "query" value=""><br>
         <input type="submit" value="search">
     </form>
