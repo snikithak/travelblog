@@ -22,7 +22,13 @@ def index():
 
     return render_template('index.html', url=url_for('index'))
 
+@app.route('/signup')
+def signup():
+    return render_template('signup.html', url=url_for('signup'))
 
+@app.route('/author')
+def author():
+    return render_template('author.html', url=url_for('author'))
 
 
 if __name__== "__main__":
