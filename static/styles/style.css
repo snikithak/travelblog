@@ -10,7 +10,7 @@
  h1{
     color: white;
     text-align:center;
-    background-color:#F5CAC3;
+    background-color:#F5CAC3; 
     border-radius: 20px;
     font-size: 50px;
     width: 800px;
@@ -21,7 +21,7 @@
 
 h2{
     padding: 40px;
-    background-color:#F6BD60;
+     background-color:#F6BD60; 
     color: white;
     border-radius: 20px;
     text-align: center;
@@ -29,8 +29,8 @@ h2{
 
 .navbar{
     display: flex;
-    background-color: rgb(249, 181, 181);
-    width: 70%;
+    background-color: rgb(249, 181, 181); 
+    width: 100%;
 }
 
 .navbar a {
